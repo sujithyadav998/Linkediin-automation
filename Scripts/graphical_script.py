@@ -1,7 +1,7 @@
 #############################################
-__author__ = "Prabal Jain"  #
-__LinkedIn__ = "prabaljainn"  #
-__Github__ = "prabaljainn"  #
+__author__ = ""  #
+__LinkedIn__ = ""  #
+__Github__ = ""  #
 
 #############################################
 
@@ -32,7 +32,7 @@ def guibuild():
 
     root.geometry("660x800")
     root.title("LinkedIn Conection Bot")
-    link = "https://github.com/prabaljainn/Linkedin_Connection_Bot.git"
+    link = ""
     text = Text(root, height=1, padx=10, borderwidth=1, bg="cyan")
     text.insert(1.0, link)
     text.configure(state="normal")
@@ -77,14 +77,14 @@ def guibuild():
                                                                                      padx=10,
                                                                                      pady=7)
 
-    link = "https://www.linkedin.com/in/prabaljainn"
+    link = ""
     text = Text(root, height=1, padx=10, borderwidth=1, bg="cyan")
     text.insert(1.0, link)
     text.configure(state="normal")
     text.grid(row=30, column=0)
     text.configure(inactiveselectbackground=text.cget("selectbackground"))
 
-    link = "https://github.com/prabaljainn"
+    link = ""
     text = Text(root, height=1, padx=10, borderwidth=1, bg="cyan")
     text.insert(1.0, link)
     text.configure(state="normal")
